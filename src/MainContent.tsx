@@ -1,4 +1,5 @@
 import "./MainContent.css";
+import DownloadIcon from "./assets/download";
 
 export default function MainContent() {
   return (
@@ -26,7 +27,7 @@ export default function MainContent() {
           <li className="experience__item">
             Spearheaded the maintenance and development of a dynamic single-page
             application utilizing React and TypeScript alongside a Node.js
-            (NestJS) proxy Backend for Frontend layer.
+            &#40;NestJS&#41; proxy Backend for Frontend layer.
           </li>
           <li className="experience__item">
             Collaborated closely with the design team to consistently refine and
@@ -89,10 +90,10 @@ export default function MainContent() {
                   target="_blank"
                 >
                   Filmoteka
-                </a>
+                </a>{" "}
                 <span className="project__technologies">
-                  [ HTML5, CSS3, JavaScript]
-                </span>
+                  &#91; HTML5, CSS3, JavaScript&#93;
+                </span>{" "}
                 <a
                   className="project__link"
                   href="https://virysik.github.io/goit-js-final-team-project-filmoteka/"
@@ -106,7 +107,7 @@ export default function MainContent() {
             <p className="project__description">
               Website for creating a personal library with popular movies.
             </p>
-            <p className="project__description">(Teamlead)</p>
+            <p className="project__description">&#40;Teamlead&#41;</p>
           </div>
           <div className="project__item-wrapper">
             <div className="project__links-content">
@@ -117,10 +118,10 @@ export default function MainContent() {
                   target="_blank"
                 >
                   Phonebook
-                </a>
+                </a>{" "}
                 <span className="project__technologies">
-                  [HTML5, JavaScript, React, Redux]
-                </span>
+                  &#91;HTML5, JavaScript, React, Redux&#93;
+                </span>{" "}
                 <a
                   className="project__link"
                   href="https://vera-goit-react-hw-08-phonebook.netlify.app/"
@@ -144,14 +145,20 @@ export default function MainContent() {
           Ivan Franko State Pedagogical University
         </h4>
         <p className="education__date">
-          2002 - 2007 | Management Master's degree
+          2002 - 2007 &#124; Management Master's degree
         </p>
       </section>
       <section className="certificate main__section">
         <h3 className="certificate__title main__title">Certifications</h3>
         <div className="certificate__wrapper">
           <h4 className="certificate__subtitle main__subtitle">
-            Cloud Practitioner | AWS
+            <a
+              className="certificate__link"
+              href="https://cp.certmetrics.com/amazon/en/public/verify/credential/9ZBZWH1BSM1EQVWN"
+              target="_blank"
+            >
+              Cloud Practitioner &#124; AWS
+            </a>
           </h4>
           <p className="certificate__description">
             December 2023 - December 2026
@@ -167,7 +174,7 @@ export default function MainContent() {
               href="https://www.udemy.com/certificate/UC-a69bbbe0-c7fa-4c07-9763-900a5c51c533/"
               target="_blank"
             >
-              AWS Certified Cloud Practitioner CLF-02 | Udemy Academy
+              AWS Certified Cloud Practitioner CLF-02 &#124; Udemy Academy
             </a>
           </h4>
           <p className="certificate__description">
@@ -181,7 +188,7 @@ export default function MainContent() {
               href="https://www.udemy.com/certificate/UC-e8ce6683-16f7-4893-b5cc-469b72606291/"
               target="_blank"
             >
-              TypeScript | Udemy Academy
+              TypeScript &#124; Udemy Academy
             </a>
           </h4>
           <p className="certificate__description">December 2021 - June 2022</p>
@@ -193,11 +200,11 @@ export default function MainContent() {
               href="https://goit.global/ua/"
               target="_blank"
             >
-              Full Stack Developer | IT School GoIT
+              Full Stack Developer &#124; IT School GoIT
             </a>
           </h4>
           <p className="certificate__description">
-            September 2020 - October 2021 | Ukraine
+            September 2020 - October 2021 &#124; Ukraine
           </p>
         </div>
 
@@ -208,13 +215,16 @@ export default function MainContent() {
               href="https://www.shecodes.io/certificates/eb721cd6d49c4ce4c32215242ef0d85c"
               target="_blank"
             >
-              Frontend Developer | IT School SheCodes
+              Frontend Developer &#124; IT School SheCodes
             </a>
           </h4>
           <p className="certificate__description">June 2020 - October 2020</p>
         </div>
       </section>
-      {/* <!-- <a href="./VeraKuzjoCV.pdf" download>Download CV</a> --> */}
+      <a href="./vera-kuzjo-cv.pdf" download className="download__button">
+        DOWNLOAD CV
+        <DownloadIcon />
+      </a>
     </main>
   );
 }
