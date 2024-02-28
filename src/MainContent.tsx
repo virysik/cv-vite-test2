@@ -221,7 +221,7 @@ export default function MainContent() {
           <p className="certificate__description">June 2020 - October 2020</p>
         </div>
       </section>
-      <a href="./vera-kuzjo-cv.pdf" download className="download__button">
+      <a href="./vera-kuzjo.pdf" download className="download__button">
         DOWNLOAD CV
         <DownloadIcon />
       </a>

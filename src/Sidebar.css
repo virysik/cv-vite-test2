@@ -10,9 +10,7 @@
   width: 180px;
   height: 180px;
   margin-bottom: 20px;
-  background-image: url(./assets/vera-cv-img.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  overflow: hidden;
   border-radius: 50%;
   filter: grayscale(100%);
 }

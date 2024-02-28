@@ -4,12 +4,14 @@ import MailIcon from "./assets/mail";
 import GithubIcon from "./assets/github";
 import LinkedInIcon from "./assets/linkedin";
 import CityIcon from "./assets/city";
-
+import CVImg from "./assets/vera-cv-img.jpg";
 export default function Sidebar() {
   return (
     <aside className="aside">
       <section className="img">
-        <div className="img__wrapper"></div>
+        <div className="img__wrapper">
+          <img src={CVImg} alt="vera kuzjo" />
+        </div>
         <div className="img__text-wrapper">
           <h1 className="img__title">Vera Kuzjo</h1>
           <h2 className="img__subtitle">Frontend developer</h2>
