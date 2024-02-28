@@ -1,0 +1,55 @@
+.main {
+  padding: var(--gap);
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+}
+
+.main__title {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.experience__subtitle {
+  margin-bottom: 4px;
+}
+.experience__date {
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.experience__list {
+  padding-left: 20px;
+}
+
+.education__date {
+  font-weight: 500;
+}
+.project__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project__links-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project__link {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.education__subtitle {
+  margin-bottom: 4px;
+}
+.certificate__wrapper {
+  margin-bottom: 8px;
+}
+.certificate__wrapper:last-child {
+  margin-bottom: 0px;
+}
+.certificate__link {
+  text-decoration: underline;
+  color: inherit;
+}

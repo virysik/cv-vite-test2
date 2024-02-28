@@ -1,0 +1,45 @@
+:root {
+  --text-color: #121212;
+  --gap: 10px;
+  --section-gap: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: var(--text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}

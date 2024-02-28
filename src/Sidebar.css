@@ -1,0 +1,61 @@
+.img {
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom-color: inherit;
+  border-bottom-style: inset;
+  border-bottom-width: 3px;
+  border-bottom-right-radius: 25px;
+}
+.img__wrapper {
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  background-image: url(./assets/vera-cv-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.img__title {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.img__subtitle {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.aside {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+}
+.aside__list {
+  margin-bottom: 16px;
+}
+.aside__list:last-child {
+  margin-bottom: 0px;
+}
+
+.aside__title {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.aside__tel,
+.aside__mail,
+.aside__link,
+.aside__city {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: inherit;
+}
+
+.aside__list {
+  padding-left: 20px;
+}
