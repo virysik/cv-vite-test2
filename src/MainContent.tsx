@@ -42,8 +42,8 @@ export default function MainContent() {
             integration, and functional testing protocols.
           </li>
           <li className="experience__item">
-            Integrated SonarQube to monitior and enhance code quality across the
-            application, ensuring optimal performance and maintainabilty.
+            Integrated SonarQube to monitor and enhance code quality across the
+            application, ensuring optimal performance and maintainability.
           </li>
           <li className="experience__item">
             Boosted performance by seamlessly transitioning an Angular
@@ -52,7 +52,7 @@ export default function MainContent() {
           </li>
           <li className="experience__item">
             Successfully interfaced with REST APIs from multiple services,
-            enhancing both UX and devloper productivity by integrating Tanstack
+            enhancing both UX and developer productivity by integrating Tanstack
             React Query for streamlined data retrieval.
           </li>
           <li className="experience__item">
@@ -72,7 +72,7 @@ export default function MainContent() {
           </li>
           <li className="experience__item">
             Led the architecture and development of a cutting-edge frontend SPA
-            built with React and TypeScript utilizing Vite for tooling, futher
+            built with React and TypeScript utilizing Vite for tooling, further
             optimized with AWS CloudFront/S3 static website hosting for enhanced
             performance and scalability.
           </li>
